@@ -127,7 +127,7 @@
                 header("Location: welcome.php");
             } else {
 
-                echo "username and password is incorrect";
+                echo "username or password is incorrect";
             }
 
             $_SESSION["userid"] = $row["id"];
