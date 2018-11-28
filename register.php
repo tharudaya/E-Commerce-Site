@@ -127,11 +127,11 @@
 
             if ($result) {
 
-                echo "Added User";
+                echo "Successfully Registered";
                 header("Location: index.php");
             } else {
 
-                echo "Error";
+                echo "Failed to Registered";
             }
 
             mysqli_close($conn);
